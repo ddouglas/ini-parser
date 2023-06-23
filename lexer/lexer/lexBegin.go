@@ -1,9 +1,10 @@
 package lexer
 
 import (
-	"parser/lexer/errors"
-	"parser/lexer/lexertoken"
 	"strings"
+
+	"github.com/ddouglas/sfs-parser/lexer/errors"
+	"github.com/ddouglas/sfs-parser/lexer/lexertoken"
 )
 
 func lexBegin(lexer *Lexer) LexFn {

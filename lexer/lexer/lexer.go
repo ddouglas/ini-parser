@@ -2,9 +2,10 @@ package lexer
 
 import (
 	"fmt"
-	"parser/lexer/lexertoken"
 	"unicode"
 	"unicode/utf8"
+
+	"github.com/ddouglas/sfs-parser/lexer/lexertoken"
 )
 
 type Lexer struct {

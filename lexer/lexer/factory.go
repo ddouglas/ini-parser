@@ -1,7 +1,7 @@
 package lexer
 
 import (
-	"parser/lexer/lexertoken"
+	"github.com/ddouglas/sfs-parser/lexer/lexertoken"
 )
 
 func Initialize(name, input string) *Lexer {
